@@ -6,8 +6,6 @@ Script Logic - When the Python script is run, it will follow these rules -
   - Check if there is a Google Sheet with data for the current day in the folder
       - No - If no Google Sheet for current day, do nothing
       - Yes - If there Google Sheet for current day
-          Check if there is a Google Slide presentation already available for the current day in the folder
-              - Yes - Delete the presentation and create a new one using the data in Google Sheet for the current day 
-               (There may have been a change to the data in the Google Sheet so we need make sure we delete the old presentation and 
-               replace it with a new one with accurate data).
+          - Check if there is a Google Slide presentation already available for the current day in the folder
+              - Yes - Delete the presentation and create a new one using the data in Google Sheet for the current day (There may have been a change to the data in the Google Sheet so we need make sure we delete the old presentation and replace it with a new one with accurate data).
               - No - Create a new Google Slide presentation using the data in Google Sheet for the current day
